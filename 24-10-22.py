@@ -1,9 +1,9 @@
-n = int(input())
+num = input()
 
-pair_count = 0
-for i in range(n+1):
-    if i % 2 == 0:
-        pair_count += i//2
-    else:
-        pair_count += i//2
-print(pair_count*2)
+l_sum = int(num[0]) + int(num[1])
+r_sum = int(num[2]) + int(num[3])
+
+if r_sum % l_sum == 0:
+    print("YES")
+else:
+    print("NO")
