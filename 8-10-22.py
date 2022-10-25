@@ -26,5 +26,5 @@ for i in range(test_cases):
     for letter in text:
         ind = alphabet_list.index(letter)
         answer += change_list[ind]
-    
+
     print(answer)
